@@ -69,19 +69,19 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                    <Link href="https://gitee.com/zsj265/wuyou-frontend" target="_blank">
-                      获取前端源码
-                    </Link>
-                  </Button>
                   <Button
                     variant="outline"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                  >
+                  ><Link href="https://gitee.com/zsj265/wuyou-frontend" target="_blank">
+                      获取前端源码
+                    </Link>
+                  </Button>
+                  <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                     <Link href="http://admin.wuyoujobs.com" target="_blank">
                       管理端(账号密码：admin)
                     </Link>
                   </Button>
+    
                 </div>
               </div>
               <div className="flex items-center justify-center">
@@ -385,13 +385,13 @@ export default function Home() {
                     </div>
                   </li>
                 </ul>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                {/* <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                     <Link href="http://admin.wuyoujobs.com" target="_blank">
                       管理端体验 (账号：admin 密码：admin)
                     </Link>
                   </Button>
-                </div>
+                </div> */}
               </div>
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
