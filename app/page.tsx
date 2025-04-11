@@ -78,7 +78,7 @@ export default function Home() {
                     variant="outline"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   >
-                    <Link href="http://47.95.245.28" target="_blank">
+                    <Link href="http://admin.wuyoujobs.com" target="_blank">
                       管理端(账号密码：admin)
                     </Link>
                   </Button>
@@ -387,7 +387,7 @@ export default function Home() {
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                    <Link href="http://47.95.245.28" target="_blank">
+                    <Link href="http://admin.wuyoujobs.com" target="_blank">
                       管理端体验 (账号：admin 密码：admin)
                     </Link>
                   </Button>
