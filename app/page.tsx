@@ -77,7 +77,7 @@ export default function Home() {
                     </Link>
                   </Button> */}
                   <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                    <Link href="http://admin.wuyoujobs.com" target="_blank">
+                    <Link href="http://47.95.245.28" target="_blank">
                       管理端体验（账号密码：admin）
                     </Link>
                   </Button>
