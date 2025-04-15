@@ -408,7 +408,7 @@ export default function Home() {
                     <div className="space-y-1">
                       <p className="text-lg font-medium leading-none">价格</p>
                       <p className="text-sm text-muted-foreground">
-                        <span className="line-through">399元</span> 199元
+                        <span className="line-through">499元</span> 299元
                       </p>
                     </div>
                   </div>
