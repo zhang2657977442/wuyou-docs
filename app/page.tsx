@@ -89,8 +89,8 @@ export default function Home() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">价格</h3>
                     <div className="flex items-center gap-2">
-                      <span className="text-2xl font-bold text-primary">199元</span>
-                      <span className="text-sm text-muted-foreground line-through">399元</span>
+                      <span className="text-2xl font-bold text-primary">299元</span>
+                      <span className="text-sm text-muted-foreground line-through">499元</span>
                       <span className="text-2xl font-bold text-primary">（含详细运行步骤）</span>
                     </div>
                     <p className="text-sm text-muted-foreground">前端免费，后端+管理端源码特惠价</p>
