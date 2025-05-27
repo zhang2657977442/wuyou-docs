@@ -441,6 +441,32 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                项目截图
+                </h2>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  接口文档展示
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-1">
+              <div className="overflow-hidden rounded-xl border bg-background shadow-xl flex items-center justify-center p-2">
+                <div
+                  className="relative w-full"
+                  style={{ maxWidth: "1280px", margin: "0 auto" }}
+                >
+                  <Image
+                    src="/images/api.png"
+                    alt="无忧直聘小程序接口文档截图"
+                    width={1280}
+                    height={560}
+                    className="w-auto h-auto mx-auto"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
