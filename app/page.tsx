@@ -88,7 +88,7 @@ export default function Home() {
                     无忧直聘管理端（React+Ant Design+Ant Design Pro）收费
                   </p>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex flex-col gap-3 min-[400px]:flex-col max-w-[400px]">
                   {/* <Button
                     variant="outline"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
@@ -96,6 +96,19 @@ export default function Home() {
                       获取前端源码
                     </Link>
                   </Button> */}
+                  <p className="text-sm text-red-500">
+                    因无营业执照，小程序无法上线体验，请查看演示视频～
+                  </p>
+                  <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                    <Link href="https://wuyoujobs.com/job.mp4" target="_blank">
+                      前端求职者演示视频
+                    </Link>
+                  </Button>
+                  <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                    <Link href="https://wuyoujobs.com/boss.mp4" target="_blank">
+                      前端招聘者演示视频
+                    </Link>
+                  </Button>
                   <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                     <Link href="http://47.95.245.28" target="_blank">
                       管理端体验（账号密码：admin）
@@ -444,7 +457,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                项目截图
+                  项目截图
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   接口文档展示
@@ -620,9 +633,7 @@ export default function Home() {
         </section> */}
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full border-t items-center justify-center px-4 md:px-6">
-        <p className="text-center text-sm text-muted-foreground">
-          © 2025 无忧直聘.
-        </p>
+        <p className="text-center text-sm text-muted-foreground">© 无忧直聘</p>
       </footer>
     </div>
   );
